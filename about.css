@@ -1,0 +1,10 @@
+
+
+.about-bg {
+    width: 100%;
+}
+.about-tech {
+    background-image: url(./img/about-tech.png);
+    width: 557px;
+    height: 350px;
+}

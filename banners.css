@@ -1,0 +1,68 @@
+.banners {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 84px;
+    bottom: 0;
+    top: 0;
+    margin-left: 10px;
+
+}
+.banners-item {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+.banners-item__info-text-1 {
+    color: white;
+    font-family: 'Montserrat-Bold';
+    font-size: 34px;
+    text-transform: uppercase;
+
+}
+.banners-item__info-text-1 span {
+    color: #18cfab;
+}
+.banners-item__info-text-2 {
+    font-family: 'Montserrat-Bold';
+    font-size: 79px;
+    color: white;
+    text-transform: uppercase;
+
+}
+.banners-item__info-text-3 {
+    color: #d4d4d4;
+    font-size: 34px;
+    font-family: 'Montserrat-Light';
+}
+.banners-buttons-block {
+    width: 171px;
+    height: 66px;
+    border-radius: 10px;
+    border-top: 6px solid white;
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat-Bold';
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banners-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+.banners-buttons-left {
+    background-color: #18cfab;
+}
+.banners-buttons-right {
+    background-color: #00cbf6;
+    margin-left: 20px;
+    
+}
